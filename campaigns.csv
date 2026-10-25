@@ -1,0 +1,501 @@
+date,campaign_id,campaign,platform,campaign_type,market,objective,spend,impressions,clicks,installs,purchases,revenue
+2026-04-25,CMP0001,Google Search - India West,Google,Search,India West,App Installs,3544.24,122473,124,17,0,0.00
+2026-10-07,CMP0002,Google YouTube - India South,Google,YouTube,India South,Lead Generation,8247.93,486029,298,69,8,5279.18
+2026-02-19,CMP0003,Meta Prospecting - India North,Meta,Prospecting,India North,Purchases,7230.85,375663,540,91,14,16733.57
+2026-02-05,CMP0004,Meta Reels - India South,Meta,Reels,India South,Lead Generation,1969.85,253968,130,32,2,3152.10
+2026-05-17,CMP0005,Google Display - India West,Google,Display,India West,App Installs,12990.58,731751,661,142,6,10715.14
+2026-01-17,CMP0006,Google Display - India North,Google,Display,India North,App Installs,14724.77,435651,2353,589,39,38380.02
+2026-05-07,CMP0007,Meta Retargeting - India West,Meta,Retargeting,India West,App Installs,13715.81,580158,1448,196,10,11378.60
+2026-03-23,CMP0008,Google Search - India North,Google,Search,India North,App Installs,14506.93,457666,1326,201,11,18945.10
+2026-06-24,CMP0009,Google YouTube - India West,Google,YouTube,India West,Lead Generation,3074.08,470884,1112,236,36,40873.33
+2026-04-12,CMP0010,Google Display - Pan-India,Google,Display,Pan-India,Lead Generation,3767.70,814550,190,49,5,3005.11
+2026-05-04,CMP0011,Meta Advantage+ Shopping - India South,Meta,Advantage+ Shopping,India South,App Installs,15950.56,97582,911,202,25,27290.78
+2026-08-05,CMP0012,Google Display - Pan-India,Google,Display,Pan-India,Lead Generation,17401.30,580492,1059,143,16,26631.66
+2026-02-02,CMP0013,Meta Prospecting - India South,Meta,Prospecting,India South,App Installs,6879.84,631886,454,95,3,1477.22
+2026-05-23,CMP0014,Meta Prospecting - Pan-India,Meta,Prospecting,Pan-India,App Installs,12438.83,239643,1091,194,11,10994.84
+2026-08-05,CMP0015,Google Search - India East,Google,Search,India East,Purchases,8106.52,779491,500,27,3,1792.54
+2026-03-13,CMP0016,Google UAC - Pan-India,Google,UAC,Pan-India,Purchases,8287.61,307075,293,68,9,11973.56
+2026-07-28,CMP0017,Google Search - India South,Google,Search,India South,App Installs,9358.77,239130,340,13,1,1509.92
+2026-09-07,CMP0018,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Lead Generation,3800.59,326120,1447,79,5,5468.32
+2026-04-06,CMP0019,Google Search - Pan-India,Google,Search,Pan-India,App Installs,2351.16,86262,232,58,3,3858.50
+2026-06-11,CMP0020,Meta Reels - Pan-India,Meta,Reels,Pan-India,Lead Generation,16903.07,229181,2123,151,16,27266.80
+2026-02-21,CMP0021,Google Search - India East,Google,Search,India East,Lead Generation,2430.78,238508,379,21,1,1041.55
+2026-06-03,CMP0022,Meta Reels - Pan-India,Meta,Reels,Pan-India,App Installs,16853.50,123618,3281,215,21,26596.93
+2026-09-08,CMP0023,Meta Retargeting - India West,Meta,Retargeting,India West,Lead Generation,5418.84,68266,548,22,2,1607.28
+2026-01-05,CMP0024,Meta Reels - India East,Meta,Reels,India East,Lead Generation,3079.48,739586,335,60,2,1732.30
+2026-05-08,CMP0025,Google Display - India South,Google,Display,India South,Lead Generation,12404.48,385858,526,99,4,6468.87
+2026-06-20,CMP0026,Google Performance Max - India North,Google,Performance Max,India North,App Installs,14344.09,446712,752,78,10,16274.25
+2026-06-29,CMP0027,Meta Retargeting - India South,Meta,Retargeting,India South,Purchases,6327.21,848980,1227,166,10,14939.91
+2026-10-02,CMP0028,Meta Reels - India East,Meta,Reels,India East,Lead Generation,6763.32,43941,323,87,5,5183.31
+2026-03-01,CMP0029,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Lead Generation,7671.28,619596,2740,451,60,103161.31
+2026-06-19,CMP0030,Google Display - India East,Google,Display,India East,App Installs,11669.01,710612,557,63,5,4245.67
+2026-07-14,CMP0031,Google UAC - India East,Google,UAC,India East,Lead Generation,12578.94,197480,1338,53,3,3698.94
+2026-04-20,CMP0032,Meta App Installs - India East,Meta,App Installs,India East,Purchases,9787.72,847291,554,33,3,2707.51
+2026-03-17,CMP0033,Google Display - India South,Google,Display,India South,App Installs,1610.35,271736,111,16,2,2839.53
+2026-03-17,CMP0034,Meta App Installs - India East,Meta,App Installs,India East,App Installs,12221.77,20814,849,192,10,13894.81
+2026-03-04,CMP0035,Meta Prospecting - Pan-India,Meta,Prospecting,Pan-India,App Installs,8868.56,855346,869,100,12,18603.11
+2026-09-01,CMP0036,Meta Reels - India East,Meta,Reels,India East,App Installs,8761.17,803295,813,134,14,7764.44
+2026-06-13,CMP0037,Meta Retargeting - India West,Meta,Retargeting,India West,Purchases,16202.85,99491,1133,237,7,8277.68
+2026-07-19,CMP0038,Meta Prospecting - India South,Meta,Prospecting,India South,Purchases,16401.29,627451,8442,1504,134,114319.03
+2026-10-07,CMP0039,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Lead Generation,14637.79,246251,2282,304,35,49967.57
+2026-01-14,CMP0040,Meta Retargeting - Pan-India,Meta,Retargeting,Pan-India,Lead Generation,16436.40,635644,7235,525,45,43280.56
+2026-07-14,CMP0041,Google Performance Max - India West,Google,Performance Max,India West,Purchases,5874.71,887335,270,59,1,752.70
+2026-04-13,CMP0042,Google Search - India North,Google,Search,India North,App Installs,15299.04,666517,2872,503,27,40103.44
+2026-02-28,CMP0043,Google YouTube - Pan-India,Google,YouTube,Pan-India,Lead Generation,14266.90,186720,2023,232,27,26608.05
+2026-05-05,CMP0044,Google Search - Pan-India,Google,Search,Pan-India,Lead Generation,2911.94,825004,185,42,4,4676.82
+2026-06-24,CMP0045,Meta Prospecting - Pan-India,Meta,Prospecting,Pan-India,Lead Generation,1412.56,455463,471,90,12,12454.89
+2026-08-27,CMP0046,Meta Reels - Pan-India,Meta,Reels,Pan-India,Purchases,8517.65,781536,1038,274,17,24873.43
+2026-06-16,CMP0047,Meta Advantage+ Shopping - India North,Meta,Advantage+ Shopping,India North,Purchases,4254.91,237423,617,112,16,18359.15
+2026-07-28,CMP0048,Google Search - India South,Google,Search,India South,Lead Generation,9408.11,809993,772,113,3,2987.82
+2026-08-31,CMP0049,Google Display - Pan-India,Google,Display,Pan-India,Purchases,10498.35,375455,495,103,6,3677.31
+2026-10-02,CMP0050,Google Display - India North,Google,Display,India North,Lead Generation,17174.74,738688,2195,469,73,60739.52
+2026-07-04,CMP0051,Google UAC - India West,Google,UAC,India West,App Installs,4214.62,29835,563,29,1,1311.12
+2026-05-26,CMP0052,Meta Prospecting - India North,Meta,Prospecting,India North,Lead Generation,9085.87,476865,456,112,4,4455.43
+2026-06-05,CMP0053,Google UAC - India South,Google,UAC,India South,Lead Generation,2631.04,275247,139,31,1,1058.19
+2026-06-06,CMP0054,Meta Advantage+ Shopping - Pan-India,Meta,Advantage+ Shopping,Pan-India,Purchases,10752.98,78156,950,85,4,2648.11
+2026-01-02,CMP0055,Google YouTube - India North,Google,YouTube,India North,App Installs,8063.10,737858,742,155,18,24803.45
+2026-02-28,CMP0056,Meta Reels - India South,Meta,Reels,India South,Purchases,10348.65,694094,1359,73,9,14064.52
+2026-06-05,CMP0057,Meta App Installs - India North,Meta,App Installs,India North,Purchases,12955.53,300470,1034,51,4,3151.99
+2026-01-11,CMP0058,Google UAC - Pan-India,Google,UAC,Pan-India,Lead Generation,17992.82,719938,1298,106,10,8255.11
+2026-06-28,CMP0059,Meta App Installs - India North,Meta,App Installs,India North,Purchases,8060.25,351653,468,96,6,9289.88
+2026-05-10,CMP0060,Google Performance Max - India North,Google,Performance Max,India North,Purchases,6631.00,825075,576,113,11,7735.60
+2026-08-15,CMP0061,Meta Reels - India East,Meta,Reels,India East,Lead Generation,13967.84,228446,3048,766,0,0.00
+2026-01-08,CMP0062,Google UAC - India West,Google,UAC,India West,Lead Generation,10477.82,112736,392,104,11,18799.90
+2026-09-05,CMP0063,Meta Reels - India West,Meta,Reels,India West,Purchases,17668.11,270570,3461,636,79,42995.24
+2026-01-02,CMP0064,Meta Advantage+ Shopping - Pan-India,Meta,Advantage+ Shopping,Pan-India,Purchases,5951.69,328058,569,140,11,9886.73
+2026-05-03,CMP0065,Meta App Installs - India West,Meta,App Installs,India West,App Installs,10806.20,259907,1145,175,25,44608.97
+2026-09-15,CMP0066,Google Performance Max - India North,Google,Performance Max,India North,App Installs,17417.94,363121,760,126,10,10034.71
+2026-06-23,CMP0067,Google Search - India East,Google,Search,India East,Purchases,11670.76,431791,631,155,11,15622.95
+2026-02-05,CMP0068,Meta Reels - India North,Meta,Reels,India North,Lead Generation,5144.14,732644,321,46,1,1627.98
+2026-01-24,CMP0069,Meta Retargeting - India West,Meta,Retargeting,India West,App Installs,6649.49,73845,684,114,11,7474.26
+2026-05-04,CMP0070,Google YouTube - India East,Google,YouTube,India East,Lead Generation,9560.81,626484,637,64,1,1666.63
+2026-06-03,CMP0071,Google Search - India East,Google,Search,India East,Purchases,11934.17,459920,823,230,32,30874.94
+2026-06-01,CMP0072,Meta Reels - India West,Meta,Reels,India West,Lead Generation,1568.59,885357,253,51,6,7611.89
+2026-06-30,CMP0073,Meta Advantage+ Shopping - India South,Meta,Advantage+ Shopping,India South,Lead Generation,4879.28,214367,421,83,11,18365.55
+2026-07-06,CMP0074,Google Display - India East,Google,Display,India East,App Installs,13503.64,109511,1269,111,14,13214.71
+2026-06-01,CMP0075,Meta Retargeting - India West,Meta,Retargeting,India West,Purchases,13742.20,370168,1140,251,13,17685.83
+2026-07-22,CMP0076,Meta Reels - India West,Meta,Reels,India West,App Installs,1433.83,577636,204,20,1,951.49
+2026-06-17,CMP0077,Google Performance Max - India North,Google,Performance Max,India North,Lead Generation,16576.30,247120,958,199,22,11246.80
+2026-02-19,CMP0078,Google Display - India East,Google,Display,India East,App Installs,5144.64,578658,430,93,14,20328.88
+2026-07-28,CMP0079,Google Performance Max - India North,Google,Performance Max,India North,Purchases,16976.09,308328,1479,396,55,75661.76
+2026-04-08,CMP0080,Meta Prospecting - India East,Meta,Prospecting,India East,Purchases,17465.88,879226,1483,271,7,5451.73
+2026-04-17,CMP0081,Google YouTube - India South,Google,YouTube,India South,App Installs,11051.24,867547,890,227,5,3226.64
+2026-02-26,CMP0082,Google YouTube - India West,Google,YouTube,India West,App Installs,12305.77,42032,468,84,2,1242.25
+2026-02-02,CMP0083,Meta Reels - India North,Meta,Reels,India North,Lead Generation,9200.93,830809,780,72,7,11737.70
+2026-09-03,CMP0084,Meta App Installs - India North,Meta,App Installs,India North,App Installs,15434.62,461980,1889,108,3,1616.01
+2026-06-16,CMP0085,Meta Reels - Pan-India,Meta,Reels,Pan-India,Lead Generation,7599.19,641410,863,55,6,7972.42
+2026-07-31,CMP0086,Google Performance Max - India East,Google,Performance Max,India East,App Installs,6894.05,490528,327,37,2,2754.42
+2026-02-17,CMP0087,Meta Prospecting - India North,Meta,Prospecting,India North,App Installs,8455.53,795758,580,104,10,6150.12
+2026-06-09,CMP0088,Meta App Installs - India North,Meta,App Installs,India North,Purchases,7107.66,620991,1573,382,27,16337.57
+2026-01-14,CMP0089,Meta Reels - India South,Meta,Reels,India South,Purchases,11431.11,704786,1529,319,21,9623.10
+2026-03-14,CMP0090,Google YouTube - India East,Google,YouTube,India East,App Installs,13648.28,47146,451,67,3,2663.75
+2026-01-26,CMP0091,Google Search - India South,Google,Search,India South,App Installs,12522.67,300320,1070,149,8,7327.87
+2026-09-27,CMP0092,Google Display - Pan-India,Google,Display,Pan-India,Purchases,12407.83,62623,391,34,5,7408.09
+2026-09-12,CMP0093,Meta Advantage+ Shopping - India North,Meta,Advantage+ Shopping,India North,App Installs,13749.84,199229,1130,196,22,21693.01
+2026-02-09,CMP0094,Google Performance Max - India North,Google,Performance Max,India North,Purchases,15683.45,618727,1410,154,12,8184.35
+2026-02-24,CMP0095,Meta Advantage+ Shopping - India North,Meta,Advantage+ Shopping,India North,Purchases,5287.72,632476,1923,421,23,12721.58
+2026-06-28,CMP0096,Google YouTube - Pan-India,Google,YouTube,Pan-India,App Installs,7098.48,873729,910,92,4,5899.42
+2026-08-18,CMP0097,Google UAC - India East,Google,UAC,India East,Purchases,12643.04,606912,466,127,8,8664.35
+2026-06-30,CMP0098,Meta Advantage+ Shopping - Pan-India,Meta,Advantage+ Shopping,Pan-India,App Installs,9723.26,340486,3491,380,42,24019.81
+2026-01-22,CMP0099,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Lead Generation,8755.53,864153,1838,294,45,69516.23
+2026-03-30,CMP0100,Meta Prospecting - Pan-India,Meta,Prospecting,Pan-India,Lead Generation,1857.59,756995,208,16,1,1001.84
+2026-06-21,CMP0101,Meta Reels - India North,Meta,Reels,India North,Lead Generation,2307.32,114096,246,60,9,5877.04
+2026-06-08,CMP0102,Google YouTube - India South,Google,YouTube,India South,Purchases,17457.30,747409,3303,199,19,16975.42
+2026-08-05,CMP0103,Google YouTube - India North,Google,YouTube,India North,Lead Generation,9742.61,34116,687,183,16,10171.41
+2026-10-04,CMP0104,Google Display - India North,Google,Display,India North,Lead Generation,15230.01,567108,1658,118,8,12578.53
+2026-07-06,CMP0105,Google Performance Max - India North,Google,Performance Max,India North,Purchases,12562.90,264068,860,196,11,19289.11
+2026-08-14,CMP0106,Meta Retargeting - India West,Meta,Retargeting,India West,Lead Generation,8956.22,310459,855,67,3,4885.66
+2026-02-22,CMP0107,Google Performance Max - India West,Google,Performance Max,India West,Lead Generation,13151.54,555970,1605,169,24,24974.11
+2026-08-01,CMP0108,Google Performance Max - India West,Google,Performance Max,India West,App Installs,2094.72,541392,144,13,0,0.00
+2026-05-27,CMP0109,Meta Retargeting - India South,Meta,Retargeting,India South,App Installs,16612.26,510404,4340,640,16,12727.96
+2026-08-05,CMP0110,Google YouTube - Pan-India,Google,YouTube,Pan-India,Lead Generation,3067.94,317096,469,90,9,14215.76
+2026-09-21,CMP0111,Meta Reels - Pan-India,Meta,Reels,Pan-India,App Installs,10860.80,768448,1295,126,10,5655.79
+2026-09-17,CMP0112,Meta Prospecting - Pan-India,Meta,Prospecting,Pan-India,Lead Generation,14411.73,547280,1721,331,52,24540.20
+2026-02-23,CMP0113,Google Display - India South,Google,Display,India South,Lead Generation,14161.22,785899,2209,267,29,39855.32
+2026-08-23,CMP0114,Meta Retargeting - India South,Meta,Retargeting,India South,App Installs,1821.33,226383,270,71,6,7098.55
+2026-07-02,CMP0115,Meta Prospecting - India South,Meta,Prospecting,India South,Purchases,15683.93,65126,1742,223,32,53048.34
+2026-09-12,CMP0116,Meta Advantage+ Shopping - India South,Meta,Advantage+ Shopping,India South,Purchases,7371.43,851020,553,32,3,3559.17
+2026-06-01,CMP0117,Meta Prospecting - India North,Meta,Prospecting,India North,Purchases,6349.13,646894,1322,194,23,29441.14
+2026-07-27,CMP0118,Meta Advantage+ Shopping - India North,Meta,Advantage+ Shopping,India North,App Installs,7303.63,855010,1226,298,34,21093.96
+2026-01-17,CMP0119,Google Display - India West,Google,Display,India West,Purchases,11365.59,727048,989,57,2,1748.84
+2026-04-06,CMP0120,Meta Retargeting - India North,Meta,Retargeting,India North,App Installs,9583.94,420785,2806,586,31,42993.09
+2026-02-07,CMP0121,Meta Retargeting - India North,Meta,Retargeting,India North,App Installs,8794.32,763022,2817,684,46,24732.72
+2026-03-31,CMP0122,Meta Advantage+ Shopping - India South,Meta,Advantage+ Shopping,India South,Lead Generation,14534.10,548469,937,90,8,9780.60
+2026-02-14,CMP0123,Meta Reels - India South,Meta,Reels,India South,Lead Generation,2304.57,432500,172,38,5,8813.56
+2026-09-22,CMP0124,Google Performance Max - India East,Google,Performance Max,India East,Lead Generation,6987.85,884325,344,93,7,3673.65
+2026-03-26,CMP0125,Google YouTube - India South,Google,YouTube,India South,Purchases,3921.04,758788,165,17,0,0.00
+2026-10-01,CMP0126,Meta Retargeting - India West,Meta,Retargeting,India West,Lead Generation,2769.60,687124,134,26,3,4762.25
+2026-05-16,CMP0127,Google Search - India North,Google,Search,India North,App Installs,12138.98,819214,559,141,13,11151.75
+2026-02-07,CMP0128,Google Performance Max - India West,Google,Performance Max,India West,Purchases,12768.71,180759,796,147,9,12970.53
+2026-09-21,CMP0129,Meta App Installs - India South,Meta,App Installs,India South,Purchases,10635.74,349617,2617,193,6,9699.73
+2026-06-10,CMP0130,Meta Retargeting - India South,Meta,Retargeting,India South,Purchases,4389.21,182082,428,48,1,1132.35
+2026-01-25,CMP0131,Google UAC - Pan-India,Google,UAC,Pan-India,Purchases,2049.08,533934,103,11,0,0.00
+2026-01-24,CMP0132,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Purchases,7929.77,612983,909,120,10,15641.70
+2026-07-11,CMP0133,Google UAC - India North,Google,UAC,India North,Purchases,14554.27,370556,1083,199,15,7538.01
+2026-03-18,CMP0134,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Purchases,11385.18,555546,612,82,8,10012.23
+2026-01-09,CMP0135,Meta Reels - India West,Meta,Reels,India West,Purchases,7388.41,721537,770,196,27,33907.36
+2026-01-27,CMP0136,Meta Reels - Pan-India,Meta,Reels,Pan-India,App Installs,11003.19,193794,924,121,16,19567.52
+2026-06-10,CMP0137,Google UAC - India North,Google,UAC,India North,Purchases,8235.51,448020,778,202,28,14954.23
+2026-06-16,CMP0138,Google YouTube - India South,Google,YouTube,India South,Lead Generation,17968.46,516608,1518,393,27,40289.03
+2026-05-07,CMP0139,Meta Reels - India East,Meta,Reels,India East,App Installs,5887.31,327999,301,32,1,878.01
+2026-03-04,CMP0140,Meta Reels - India West,Meta,Reels,India West,Purchases,10834.41,584576,710,191,25,20957.52
+2026-05-12,CMP0141,Google Display - India East,Google,Display,India East,Lead Generation,13755.29,239381,1126,233,10,12422.21
+2026-04-30,CMP0142,Google Search - Pan-India,Google,Search,Pan-India,App Installs,2081.85,448377,169,12,1,663.22
+2026-06-14,CMP0143,Meta App Installs - India South,Meta,App Installs,India South,Purchases,5994.98,77036,1811,305,37,62265.82
+2026-07-23,CMP0144,Google Performance Max - India South,Google,Performance Max,India South,App Installs,14437.74,210361,724,181,4,2379.42
+2026-10-06,CMP0145,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Lead Generation,10008.55,155718,892,59,2,1594.62
+2026-04-09,CMP0146,Google Search - India West,Google,Search,India West,Purchases,4148.31,684752,197,11,1,639.83
+2026-07-16,CMP0147,Meta Retargeting - India North,Meta,Retargeting,India North,Purchases,5156.76,805371,738,130,7,5383.06
+2026-07-27,CMP0148,Google Performance Max - India West,Google,Performance Max,India West,App Installs,12726.04,752733,748,198,14,24394.11
+2026-07-11,CMP0149,Meta Retargeting - India East,Meta,Retargeting,India East,Lead Generation,8186.21,590914,667,158,20,25086.99
+2026-07-05,CMP0150,Google YouTube - India East,Google,YouTube,India East,Lead Generation,2512.13,606573,142,12,1,1603.56
+2026-09-08,CMP0151,Meta Prospecting - India South,Meta,Prospecting,India South,Lead Generation,2727.82,550167,770,107,10,13582.36
+2026-01-02,CMP0152,Meta Prospecting - India East,Meta,Prospecting,India East,Purchases,13729.52,621403,1720,292,9,16031.57
+2026-04-03,CMP0153,Meta Prospecting - India West,Meta,Prospecting,India West,Purchases,14118.73,818028,1272,165,23,38826.42
+2026-10-04,CMP0154,Meta App Installs - India North,Meta,App Installs,India North,Lead Generation,3434.23,379663,181,12,1,1470.84
+2026-09-30,CMP0155,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Purchases,7571.84,255820,891,236,28,43198.28
+2026-04-16,CMP0156,Meta Reels - India North,Meta,Reels,India North,App Installs,2330.49,637795,222,11,1,766.36
+2026-05-29,CMP0157,Google Search - India South,Google,Search,India South,Lead Generation,5133.91,782051,371,87,4,7122.76
+2026-02-01,CMP0158,Google Performance Max - India West,Google,Performance Max,India West,Purchases,10552.86,635407,486,69,6,10326.85
+2026-08-02,CMP0159,Meta Reels - India West,Meta,Reels,India West,Lead Generation,8058.75,329455,565,137,8,12302.38
+2026-09-29,CMP0160,Google YouTube - India East,Google,YouTube,India East,Purchases,3452.76,269655,265,39,2,3139.40
+2026-01-21,CMP0161,Google Display - India East,Google,Display,India East,Lead Generation,15876.82,212303,1082,99,5,4296.52
+2026-03-02,CMP0162,Google UAC - India South,Google,UAC,India South,Lead Generation,13747.57,805973,1735,154,22,32932.76
+2026-07-03,CMP0163,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Lead Generation,6381.49,392114,512,141,12,20212.15
+2026-04-24,CMP0164,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,App Installs,13653.04,32007,517,72,3,2888.35
+2026-06-22,CMP0165,Google Performance Max - Pan-India,Google,Performance Max,Pan-India,Lead Generation,5523.09,876501,326,49,6,3833.66
+2026-01-31,CMP0166,Meta Retargeting - Pan-India,Meta,Retargeting,Pan-India,Lead Generation,10002.27,894827,633,141,11,8386.79
+2026-08-22,CMP0167,Google Search - India South,Google,Search,India South,Lead Generation,7469.77,662847,382,75,2,2010.61
+2026-05-27,CMP0168,Google YouTube - India West,Google,YouTube,India West,Lead Generation,1488.00,867657,145,12,1,775.31
+2026-02-10,CMP0169,Meta Advantage+ Shopping - India West,Meta,Advantage+ Shopping,India West,Purchases,7467.27,440750,1392,155,21,37563.98
+2026-07-13,CMP0170,Google Search - India East,Google,Search,India East,Purchases,10485.38,73840,449,109,12,21232.73
+2026-04-19,CMP0171,Google YouTube - India North,Google,YouTube,India North,App Installs,16341.39,740916,938,54,8,9685.91
+2026-04-17,CMP0172,Google UAC - India West,Google,UAC,India West,App Installs,11062.21,803795,637,71,7,11177.23
+2026-02-10,CMP0173,Meta App Installs - India South,Meta,App Installs,India South,Lead Generation,9613.32,377659,1249,152,19,18725.43
+2026-09-09,CMP0174,Meta Prospecting - India West,Meta,Prospecting,India West,Purchases,5032.72,594902,615,122,4,6109.50
+2026-07-14,CMP0175,Google Search - India West,Google,Search,India West,App Installs,13156.18,679693,1057,65,9,13300.36
+2026-08-09,CMP0176,Google UAC - India North,Google,UAC,India North,App Installs,8740.57,596687,1317,227,23,37168.45
+2026-02-13,CMP0177,Google Display - India East,Google,Display,India East,Purchases,13377.38,601716,565,45,3,2569.58
+2026-08-11,CMP0178,Meta Retargeting - India North,Meta,Retargeting,India North,App Installs,5836.16,329313,1582,156,17,12137.83
+2026-07-22,CMP0179,Google UAC - India West,Google,UAC,India West,App Installs,6781.25,665318,299,42,5,6262.15
+2026-04-13,CMP0180,Meta Advantage+ Shopping - Pan-India,Meta,Advantage+ Shopping,Pan-India,Lead Generation,9247.36,201266,473,97,8,6218.18
+2026-02-28,CMP0181,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Purchases,16858.73,224505,1713,294,45,63283.30
+2026-09-13,CMP0182,Meta Advantage+ Shopping - India North,Meta,Advantage+ Shopping,India North,Purchases,3538.21,332543,312,71,2,2193.93
+2026-08-03,CMP0183,Meta Reels - Pan-India,Meta,Reels,Pan-India,Lead Generation,10333.24,844130,903,164,24,18842.68
+2026-07-24,CMP0184,Meta Retargeting - Pan-India,Meta,Retargeting,Pan-India,App Installs,17442.43,362704,1482,151,14,17271.80
+2026-08-26,CMP0185,Google Performance Max - India West,Google,Performance Max,India West,Purchases,14175.35,632181,2802,436,28,15845.31
+2026-08-22,CMP0186,Google Display - India West,Google,Display,India West,Purchases,14375.74,561428,1033,214,14,21612.51
+2026-02-25,CMP0187,Google Search - India West,Google,Search,India West,Lead Generation,12575.94,187337,657,113,7,7516.41
+2026-08-10,CMP0188,Meta Retargeting - India South,Meta,Retargeting,India South,Lead Generation,7845.78,788207,1591,212,25,36640.99
+2026-04-06,CMP0189,Google YouTube - India North,Google,YouTube,India North,Lead Generation,7345.32,221647,989,164,18,22954.79
+2026-03-30,CMP0190,Google Display - India West,Google,Display,India West,Purchases,14870.80,755282,669,134,9,5470.93
+2026-08-03,CMP0191,Meta Retargeting - Pan-India,Meta,Retargeting,Pan-India,Purchases,11219.95,617727,2409,497,55,65952.26
+2026-06-11,CMP0192,Meta Advantage+ Shopping - India South,Meta,Advantage+ Shopping,India South,App Installs,15345.35,664498,1495,108,14,15852.78
+2026-08-16,CMP0193,Meta App Installs - India East,Meta,App Installs,India East,Purchases,9410.15,101686,549,26,1,1504.00
+2026-02-28,CMP0194,Meta Reels - Pan-India,Meta,Reels,Pan-India,App Installs,5700.53,584488,841,42,5,8930.99
+2026-08-19,CMP0195,Google UAC - India West,Google,UAC,India West,App Installs,5615.30,871401,206,48,2,2760.66
+2026-04-16,CMP0196,Meta Retargeting - Pan-India,Meta,Retargeting,Pan-India,App Installs,14867.30,859565,1739,294,20,16812.00
+2026-07-30,CMP0197,Meta Reels - India North,Meta,Reels,India North,App Installs,16635.31,305794,4883,487,58,85723.38
+2026-05-18,CMP0198,Meta App Installs - India South,Meta,App Installs,India South,Lead Generation,11747.26,408396,1151,71,6,10284.32
+2026-01-02,CMP0199,Meta App Installs - India East,Meta,App Installs,India East,Purchases,15797.65,783316,960,199,27,26646.74
+2026-06-15,CMP0200,Meta Retargeting - India East,Meta,Retargeting,India East,Purchases,15116.17,369161,4347,996,145,74243.33
+2026-08-14,CMP0201,Meta Prospecting - India North,Meta,Prospecting,India North,App Installs,8869.50,463580,555,108,5,4099.63
+2026-03-26,CMP0202,Meta Advantage+ Shopping - India North,Meta,Advantage+ Shopping,India North,Purchases,2070.03,670993,136,26,0,0.00
+2026-08-16,CMP0203,Google YouTube - India South,Google,YouTube,India South,Lead Generation,1356.02,744386,283,58,5,2852.98
+2026-06-03,CMP0204,Google Search - India West,Google,Search,India West,Purchases,3503.77,826032,168,34,1,1273.93
+2026-04-20,CMP0205,Google Performance Max - India West,Google,Performance Max,India West,Lead Generation,11751.74,173727,689,63,9,5546.36
+2026-03-13,CMP0206,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Purchases,5362.81,690933,518,96,12,19135.85
+2026-09-18,CMP0207,Meta Retargeting - Pan-India,Meta,Retargeting,Pan-India,Lead Generation,4369.26,425780,1823,490,44,49475.20
+2026-06-12,CMP0208,Google YouTube - India North,Google,YouTube,India North,Purchases,3417.31,894727,337,75,11,5197.84
+2026-01-21,CMP0209,Google Search - India West,Google,Search,India West,App Installs,16699.33,842630,1985,444,36,47330.11
+2026-02-10,CMP0210,Google Display - India North,Google,Display,India North,Purchases,9789.92,228068,1393,251,32,42184.28
+2026-05-06,CMP0211,Meta App Installs - India South,Meta,App Installs,India South,App Installs,2648.38,470589,174,34,3,1401.29
+2026-06-27,CMP0212,Google Search - India South,Google,Search,India South,Purchases,9986.49,836021,1073,236,33,20109.43
+2026-09-26,CMP0213,Google Display - India East,Google,Display,India East,Purchases,2273.05,761925,134,21,0,0.00
+2026-03-01,CMP0214,Google Display - India North,Google,Display,India North,Lead Generation,5037.19,548541,173,8,0,0.00
+2026-06-14,CMP0215,Google YouTube - India East,Google,YouTube,India East,App Installs,5370.82,770276,262,17,1,751.30
+2026-05-25,CMP0216,Google Performance Max - India North,Google,Performance Max,India North,Purchases,14195.26,340790,705,62,6,7744.01
+2026-04-11,CMP0217,Meta Advantage+ Shopping - Pan-India,Meta,Advantage+ Shopping,Pan-India,Purchases,13505.38,588108,1717,237,13,20584.52
+2026-07-12,CMP0218,Google Display - India North,Google,Display,India North,Lead Generation,15463.30,777540,2554,359,55,35321.23
+2026-09-24,CMP0219,Meta Prospecting - India North,Meta,Prospecting,India North,App Installs,8139.35,405586,606,97,10,12490.59
+2026-05-30,CMP0220,Google Performance Max - India South,Google,Performance Max,India South,App Installs,5584.65,345310,559,66,5,8618.99
+2026-02-24,CMP0221,Google YouTube - India North,Google,YouTube,India North,App Installs,3961.50,503694,650,146,12,19210.21
+2026-01-21,CMP0222,Google UAC - India West,Google,UAC,India West,Lead Generation,4812.35,358716,318,42,1,1557.12
+2026-05-08,CMP0223,Google Search - India East,Google,Search,India East,Purchases,2791.38,121857,347,83,13,20305.47
+2026-05-13,CMP0224,Meta Prospecting - Pan-India,Meta,Prospecting,Pan-India,Lead Generation,16612.80,93629,641,93,3,4708.89
+2026-01-26,CMP0225,Meta Prospecting - India North,Meta,Prospecting,India North,Purchases,4022.22,616761,295,38,3,5028.63
+2026-01-18,CMP0226,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,App Installs,11516.99,661947,1638,282,9,5717.42
+2026-10-06,CMP0227,Google YouTube - India South,Google,YouTube,India South,Lead Generation,14553.42,416078,1364,213,31,30203.76
+2026-04-23,CMP0228,Google Search - India West,Google,Search,India West,Lead Generation,1692.30,865069,491,82,10,17648.73
+2026-10-01,CMP0229,Google UAC - India South,Google,UAC,India South,Purchases,14913.59,787863,514,124,16,25327.20
+2026-06-12,CMP0230,Google UAC - India South,Google,UAC,India South,Lead Generation,14744.33,746514,1014,126,12,20763.57
+2026-09-09,CMP0231,Meta Reels - India West,Meta,Reels,India West,App Installs,1837.79,73896,338,13,1,626.16
+2026-03-17,CMP0232,Google Display - India North,Google,Display,India North,App Installs,11055.03,163533,603,163,12,11808.65
+2026-03-11,CMP0233,Google Display - India West,Google,Display,India West,Purchases,17594.46,782926,1060,207,10,13863.07
+2026-07-13,CMP0234,Meta Retargeting - Pan-India,Meta,Retargeting,Pan-India,App Installs,6354.63,736942,985,205,20,29812.42
+2026-04-24,CMP0235,Google UAC - Pan-India,Google,UAC,Pan-India,Purchases,11946.07,124167,2200,213,33,54291.02
+2026-05-16,CMP0236,Google Display - India East,Google,Display,India East,App Installs,4722.70,741847,439,17,1,1758.29
+2026-10-07,CMP0237,Meta App Installs - India East,Meta,App Installs,India East,Purchases,7505.84,884067,510,104,4,6367.12
+2026-02-23,CMP0238,Meta Prospecting - India West,Meta,Prospecting,India West,Purchases,2446.57,193368,421,112,17,30262.09
+2026-03-26,CMP0239,Meta Prospecting - India East,Meta,Prospecting,India East,Lead Generation,11402.94,470292,2686,229,27,38757.55
+2026-02-19,CMP0240,Meta Advantage+ Shopping - India West,Meta,Advantage+ Shopping,India West,App Installs,2033.88,614544,160,6,0,0.00
+2026-04-16,CMP0241,Meta Retargeting - India North,Meta,Retargeting,India North,App Installs,4069.98,320986,343,78,6,4846.54
+2026-07-09,CMP0242,Meta Retargeting - India West,Meta,Retargeting,India West,Purchases,4334.59,61784,396,41,1,1351.08
+2026-04-27,CMP0243,Google Display - Pan-India,Google,Display,Pan-India,Purchases,10500.51,896639,892,182,27,20739.15
+2026-01-18,CMP0244,Meta Prospecting - India East,Meta,Prospecting,India East,Lead Generation,9635.30,556922,795,54,6,10673.38
+2026-08-05,CMP0245,Google UAC - India South,Google,UAC,India South,App Installs,2516.59,731308,107,25,1,1684.13
+2026-07-23,CMP0246,Google Search - India East,Google,Search,India East,Lead Generation,10474.51,304617,341,70,7,4213.30
+2026-02-21,CMP0247,Google UAC - Pan-India,Google,UAC,Pan-India,Lead Generation,16738.79,605016,976,245,35,46688.72
+2026-07-26,CMP0248,Meta Prospecting - India South,Meta,Prospecting,India South,Purchases,3616.72,653221,406,101,11,12006.99
+2026-06-05,CMP0249,Meta Advantage+ Shopping - India North,Meta,Advantage+ Shopping,India North,Purchases,6423.95,898788,390,96,4,4192.80
+2026-02-15,CMP0250,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Lead Generation,4357.32,236659,507,83,6,9111.07
+2026-03-11,CMP0251,Google Display - Pan-India,Google,Display,Pan-India,Purchases,14312.68,564753,3330,798,110,117282.63
+2026-08-26,CMP0252,Meta Retargeting - India West,Meta,Retargeting,India West,Purchases,9686.12,681275,654,102,8,8725.49
+2026-02-16,CMP0253,Meta Advantage+ Shopping - India South,Meta,Advantage+ Shopping,India South,Purchases,5989.17,420343,435,39,2,1458.17
+2026-01-05,CMP0254,Meta Reels - India North,Meta,Reels,India North,Lead Generation,9164.83,153741,594,59,7,12288.38
+2026-08-24,CMP0255,Meta App Installs - India East,Meta,App Installs,India East,Purchases,5433.58,504368,558,100,2,3509.51
+2026-05-25,CMP0256,Meta Reels - Pan-India,Meta,Reels,Pan-India,Lead Generation,6214.40,128355,747,88,5,8677.27
+2026-05-04,CMP0257,Meta Retargeting - India South,Meta,Retargeting,India South,Lead Generation,16314.74,859554,1038,121,0,0.00
+2026-07-18,CMP0258,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Purchases,13577.10,626344,1028,220,12,18115.33
+2026-04-03,CMP0259,Meta Reels - India West,Meta,Reels,India West,App Installs,6135.57,508649,1153,257,12,10837.25
+2026-06-07,CMP0260,Google UAC - India West,Google,UAC,India West,App Installs,8263.94,362411,510,34,1,1233.42
+2026-03-03,CMP0261,Google Performance Max - India South,Google,Performance Max,India South,Lead Generation,15773.96,415209,1546,117,18,32088.76
+2026-04-03,CMP0262,Meta Retargeting - India West,Meta,Retargeting,India West,Lead Generation,14286.21,526265,728,39,3,4482.85
+2026-08-11,CMP0263,Google Performance Max - India North,Google,Performance Max,India North,App Installs,11842.59,437988,659,110,13,21504.71
+2026-05-08,CMP0264,Google Search - India North,Google,Search,India North,Lead Generation,5001.26,376076,952,108,3,5191.28
+2026-06-22,CMP0265,Meta Reels - Pan-India,Meta,Reels,Pan-India,Lead Generation,8485.58,735141,1361,171,8,13516.62
+2026-03-09,CMP0266,Meta Prospecting - India South,Meta,Prospecting,India South,App Installs,4748.00,37977,942,184,5,3976.58
+2026-02-25,CMP0267,Google YouTube - India North,Google,YouTube,India North,Lead Generation,12179.94,35700,281,19,1,727.42
+2026-02-21,CMP0268,Google Display - India East,Google,Display,India East,Lead Generation,12329.71,298091,642,164,15,12474.81
+2026-04-13,CMP0269,Google Performance Max - India South,Google,Performance Max,India South,Lead Generation,14269.71,886889,2113,234,7,5112.71
+2026-01-07,CMP0270,Meta Advantage+ Shopping - India South,Meta,Advantage+ Shopping,India South,App Installs,12483.44,130795,810,49,4,2346.97
+2026-05-16,CMP0271,Meta Retargeting - India East,Meta,Retargeting,India East,Purchases,8999.86,119657,662,83,9,5458.20
+2026-03-29,CMP0272,Google Search - India South,Google,Search,India South,Lead Generation,6721.50,473976,842,108,7,6932.36
+2026-09-02,CMP0273,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Lead Generation,14638.30,695364,2559,548,86,50741.09
+2026-07-14,CMP0274,Meta Reels - India East,Meta,Reels,India East,App Installs,14289.96,656055,1290,352,15,9036.98
+2026-05-14,CMP0275,Meta App Installs - India North,Meta,App Installs,India North,App Installs,12203.56,27960,936,166,16,21668.64
+2026-02-18,CMP0276,Meta Reels - Pan-India,Meta,Reels,Pan-India,Lead Generation,8471.84,776949,1223,161,22,39237.41
+2026-08-29,CMP0277,Google Search - India South,Google,Search,India South,Lead Generation,15511.44,188438,977,266,8,10547.83
+2026-08-16,CMP0278,Meta Retargeting - India North,Meta,Retargeting,India North,Purchases,14661.19,484865,1334,367,0,0.00
+2026-02-16,CMP0279,Google YouTube - Pan-India,Google,YouTube,Pan-India,App Installs,14501.96,664137,662,130,11,17205.87
+2026-08-31,CMP0280,Google Performance Max - India West,Google,Performance Max,India West,Lead Generation,13239.86,395941,2715,253,17,29783.75
+2026-02-24,CMP0281,Meta Reels - Pan-India,Meta,Reels,Pan-India,Purchases,1969.07,187129,145,20,1,613.01
+2026-06-23,CMP0282,Meta Retargeting - India East,Meta,Retargeting,India East,App Installs,3010.46,449603,269,18,2,2491.15
+2026-01-25,CMP0283,Google Performance Max - India North,Google,Performance Max,India North,Lead Generation,10494.20,468834,773,201,9,12925.51
+2026-06-14,CMP0284,Google Search - India East,Google,Search,India East,Lead Generation,9669.05,418348,646,64,5,4235.67
+2026-09-20,CMP0285,Google UAC - India East,Google,UAC,India East,Lead Generation,6221.74,750570,702,121,6,8486.51
+2026-10-05,CMP0286,Meta Retargeting - India South,Meta,Retargeting,India South,Lead Generation,12864.44,353041,935,168,25,34005.72
+2026-02-24,CMP0287,Meta App Installs - India North,Meta,App Installs,India North,Lead Generation,1624.57,167386,493,112,17,11010.53
+2026-01-17,CMP0288,Google Display - India South,Google,Display,India South,Lead Generation,7225.86,489579,366,90,11,8478.29
+2026-08-02,CMP0289,Meta Prospecting - India East,Meta,Prospecting,India East,Purchases,17272.59,733430,1206,120,13,21120.57
+2026-04-11,CMP0290,Google Display - Pan-India,Google,Display,Pan-India,Lead Generation,14239.27,217897,2251,191,9,8632.96
+2026-03-08,CMP0291,Meta Advantage+ Shopping - Pan-India,Meta,Advantage+ Shopping,Pan-India,Purchases,3903.60,282403,502,24,3,4483.33
+2026-07-03,CMP0292,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Lead Generation,2424.40,757057,369,20,1,1175.00
+2026-06-19,CMP0293,Google Display - India South,Google,Display,India South,App Installs,6761.92,322835,351,97,13,6004.50
+2026-05-05,CMP0294,Meta App Installs - India South,Meta,App Installs,India South,Lead Generation,17309.47,730706,2452,164,9,4350.17
+2026-09-07,CMP0295,Meta Reels - Pan-India,Meta,Reels,Pan-India,Purchases,1936.71,698176,231,18,2,919.79
+2026-08-06,CMP0296,Google UAC - India South,Google,UAC,India South,Lead Generation,15239.17,230565,1022,231,25,36457.57
+2026-06-19,CMP0297,Google Search - India East,Google,Search,India East,Lead Generation,1836.49,91806,92,16,0,0.00
+2026-07-19,CMP0298,Meta App Installs - India West,Meta,App Installs,India West,App Installs,12511.42,575814,723,158,4,3731.58
+2026-02-14,CMP0299,Google Display - India West,Google,Display,India West,Lead Generation,5929.49,473936,215,16,0,0.00
+2026-07-11,CMP0300,Meta Retargeting - India West,Meta,Retargeting,India West,Lead Generation,17284.18,26691,736,30,3,5185.27
+2026-07-31,CMP0301,Meta Retargeting - India West,Meta,Retargeting,India West,App Installs,16414.55,552450,3514,353,14,17021.83
+2026-02-07,CMP0302,Google YouTube - India East,Google,YouTube,India East,Lead Generation,6082.96,85634,861,231,16,12265.91
+2026-06-12,CMP0303,Meta Reels - India North,Meta,Reels,India North,App Installs,9362.47,359295,1415,248,18,18507.87
+2026-08-12,CMP0304,Google Display - India South,Google,Display,India South,App Installs,5848.22,391948,363,54,3,3584.27
+2026-03-13,CMP0305,Google YouTube - India North,Google,YouTube,India North,Purchases,16173.79,220973,566,32,0,0.00
+2026-05-14,CMP0306,Meta Reels - India South,Meta,Reels,India South,App Installs,10330.28,580892,669,62,8,6742.79
+2026-07-23,CMP0307,Meta Reels - Pan-India,Meta,Reels,Pan-India,App Installs,7312.94,26106,541,101,4,4209.59
+2026-03-16,CMP0308,Google YouTube - Pan-India,Google,YouTube,Pan-India,Lead Generation,13563.45,521990,3943,377,22,29756.99
+2026-01-24,CMP0309,Meta App Installs - India East,Meta,App Installs,India East,Purchases,1870.40,695027,142,33,4,4739.49
+2026-02-09,CMP0310,Google Performance Max - India East,Google,Performance Max,India East,Purchases,9879.94,409609,1191,281,20,32953.64
+2026-03-26,CMP0311,Google YouTube - India South,Google,YouTube,India South,Purchases,5063.84,554535,558,70,8,6087.74
+2026-09-03,CMP0312,Meta Prospecting - India East,Meta,Prospecting,India East,Lead Generation,9247.56,634489,459,23,2,2599.76
+2026-03-27,CMP0313,Google YouTube - India South,Google,YouTube,India South,App Installs,5538.76,203783,573,110,15,23381.39
+2026-08-30,CMP0314,Google UAC - India East,Google,UAC,India East,Lead Generation,15770.68,193852,1076,193,24,27350.08
+2026-02-05,CMP0315,Google Display - India East,Google,Display,India East,Lead Generation,5060.87,419186,1521,392,46,58302.23
+2026-01-20,CMP0316,Google Performance Max - Pan-India,Google,Performance Max,Pan-India,Lead Generation,15946.24,572244,2829,201,21,34879.07
+2026-01-23,CMP0317,Meta Reels - India East,Meta,Reels,India East,Purchases,12920.40,464793,996,130,13,19215.01
+2026-09-02,CMP0318,Google Performance Max - India South,Google,Performance Max,India South,Purchases,14066.43,102889,602,51,6,7381.70
+2026-04-16,CMP0319,Google YouTube - India North,Google,YouTube,India North,Purchases,12754.48,346246,2298,414,24,29095.32
+2026-09-05,CMP0320,Meta App Installs - India South,Meta,App Installs,India South,Purchases,4202.49,601252,626,76,9,14438.24
+2026-03-24,CMP0321,Google UAC - India East,Google,UAC,India East,Lead Generation,2884.68,548036,283,58,6,10513.02
+2026-08-11,CMP0322,Google Search - India South,Google,Search,India South,Purchases,2680.76,290871,432,57,9,10380.22
+2026-01-06,CMP0323,Google UAC - India East,Google,UAC,India East,Purchases,4588.68,703793,270,61,5,6402.53
+2026-01-01,CMP0324,Google Display - India South,Google,Display,India South,Lead Generation,17590.85,106061,808,108,11,15893.34
+2026-06-28,CMP0325,Google Search - Pan-India,Google,Search,Pan-India,Purchases,7037.58,870129,364,95,9,8996.69
+2026-05-31,CMP0326,Google YouTube - India North,Google,YouTube,India North,Lead Generation,6911.43,137692,341,80,8,14033.40
+2026-08-24,CMP0327,Meta Retargeting - India West,Meta,Retargeting,India West,Purchases,16261.60,43679,1083,248,13,19892.83
+2026-01-05,CMP0328,Meta Advantage+ Shopping - Pan-India,Meta,Advantage+ Shopping,Pan-India,Lead Generation,12973.75,291142,4042,958,33,36080.55
+2026-04-04,CMP0329,Meta Retargeting - Pan-India,Meta,Retargeting,Pan-India,Purchases,17111.58,731289,3795,365,21,15948.03
+2026-02-24,CMP0330,Google YouTube - India West,Google,YouTube,India West,App Installs,3213.96,97300,193,43,4,4404.38
+2026-09-09,CMP0331,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Purchases,4272.25,816387,567,101,3,3287.20
+2026-03-31,CMP0332,Google YouTube - India West,Google,YouTube,India West,Purchases,8880.89,141215,740,31,1,889.34
+2026-05-02,CMP0333,Meta Retargeting - Pan-India,Meta,Retargeting,Pan-India,Purchases,5726.06,657865,1114,156,19,18825.20
+2026-04-28,CMP0334,Meta Retargeting - Pan-India,Meta,Retargeting,Pan-India,App Installs,14878.40,770829,2489,327,14,9126.46
+2026-03-10,CMP0335,Google UAC - India East,Google,UAC,India East,Purchases,17925.44,676286,1086,121,12,11854.11
+2026-09-01,CMP0336,Google Search - India South,Google,Search,India South,Purchases,15294.72,115979,1373,239,36,17164.00
+2026-10-03,CMP0337,Google Display - Pan-India,Google,Display,Pan-India,App Installs,4132.25,833213,409,92,7,8949.12
+2026-06-22,CMP0338,Meta Retargeting - India South,Meta,Retargeting,India South,Lead Generation,8286.52,657053,417,32,1,843.33
+2026-08-16,CMP0339,Meta Reels - India East,Meta,Reels,India East,Purchases,14320.36,395805,1351,108,15,11501.20
+2026-07-23,CMP0340,Meta Prospecting - India South,Meta,Prospecting,India South,App Installs,2930.56,81891,237,53,5,2951.52
+2026-04-28,CMP0341,Google Search - India East,Google,Search,India East,Purchases,5356.26,312979,938,75,2,3371.24
+2026-08-16,CMP0342,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Purchases,3469.93,746510,296,65,9,11823.41
+2026-04-27,CMP0343,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Lead Generation,14719.09,478324,1417,60,5,3170.03
+2026-09-09,CMP0344,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,App Installs,17108.89,515241,1379,252,33,23250.84
+2026-07-19,CMP0345,Meta App Installs - India South,Meta,App Installs,India South,App Installs,15117.57,246307,1501,335,49,67338.96
+2026-04-07,CMP0346,Meta Reels - India West,Meta,Reels,India West,Purchases,15538.50,206267,2336,347,41,36197.63
+2026-04-06,CMP0347,Google Search - Pan-India,Google,Search,Pan-India,App Installs,17535.19,310818,1042,99,4,3646.33
+2026-01-17,CMP0348,Meta App Installs - India West,Meta,App Installs,India West,Purchases,6748.18,899522,1374,184,18,29865.49
+2026-05-08,CMP0349,Meta App Installs - India North,Meta,App Installs,India North,App Installs,7664.60,479478,363,78,2,1462.81
+2026-01-22,CMP0350,Meta Advantage+ Shopping - India West,Meta,Advantage+ Shopping,India West,App Installs,13711.37,591276,2422,212,30,22320.42
+2026-01-08,CMP0351,Google UAC - India East,Google,UAC,India East,Purchases,4011.65,304511,298,81,8,11034.79
+2026-03-22,CMP0352,Google Display - India North,Google,Display,India North,App Installs,9598.64,734265,510,96,3,4190.38
+2026-06-12,CMP0353,Google UAC - India East,Google,UAC,India East,App Installs,17692.15,841867,1988,429,11,15707.33
+2026-08-13,CMP0354,Meta Prospecting - India East,Meta,Prospecting,India East,Lead Generation,10591.62,584097,1773,218,27,42452.69
+2026-08-19,CMP0355,Google Search - Pan-India,Google,Search,Pan-India,App Installs,6167.30,291141,540,87,10,12866.42
+2026-02-02,CMP0356,Meta Reels - India South,Meta,Reels,India South,Purchases,12259.26,580136,2656,594,27,27087.38
+2026-02-04,CMP0357,Meta Prospecting - India North,Meta,Prospecting,India North,Lead Generation,1935.46,151078,621,53,1,974.61
+2026-05-12,CMP0358,Meta Reels - Pan-India,Meta,Reels,Pan-India,Lead Generation,2024.64,246444,784,70,6,3347.65
+2026-08-01,CMP0359,Google Display - Pan-India,Google,Display,Pan-India,Lead Generation,15010.05,847831,627,31,1,1725.21
+2026-07-17,CMP0360,Google Search - India South,Google,Search,India South,Lead Generation,4382.93,566752,345,60,6,8906.90
+2026-03-27,CMP0361,Meta App Installs - India East,Meta,App Installs,India East,App Installs,14513.35,591680,1626,454,38,33267.45
+2026-08-09,CMP0362,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Lead Generation,15079.40,354162,1173,262,39,68180.97
+2026-01-18,CMP0363,Meta App Installs - India North,Meta,App Installs,India North,Lead Generation,17713.67,639702,4244,176,27,23628.28
+2026-03-21,CMP0364,Meta Reels - Pan-India,Meta,Reels,Pan-India,Lead Generation,2784.02,497732,616,110,6,3444.43
+2026-02-09,CMP0365,Meta Reels - India South,Meta,Reels,India South,Lead Generation,13356.15,846420,1632,340,46,60584.01
+2026-01-29,CMP0366,Google YouTube - India East,Google,YouTube,India East,App Installs,16687.44,365632,762,189,26,34612.55
+2026-09-26,CMP0367,Google Performance Max - India North,Google,Performance Max,India North,Purchases,1891.86,581157,204,15,1,1760.90
+2026-07-21,CMP0368,Google UAC - India East,Google,UAC,India East,Purchases,3686.61,367497,183,24,0,0.00
+2026-04-12,CMP0369,Google UAC - India East,Google,UAC,India East,Lead Generation,9396.07,698932,764,126,7,7214.12
+2026-07-07,CMP0370,Google Search - India East,Google,Search,India East,Purchases,7051.57,351318,459,37,2,3067.55
+2026-04-13,CMP0371,Google Performance Max - India North,Google,Performance Max,India North,App Installs,12714.04,178568,471,25,3,4868.45
+2026-02-26,CMP0372,Meta Prospecting - India West,Meta,Prospecting,India West,Lead Generation,6325.98,509078,1206,107,10,11020.86
+2026-09-27,CMP0373,Google Search - India East,Google,Search,India East,Lead Generation,1930.50,193593,285,29,2,1079.81
+2026-05-30,CMP0374,Meta Advantage+ Shopping - India North,Meta,Advantage+ Shopping,India North,App Installs,15772.50,695956,896,188,27,33914.53
+2026-08-23,CMP0375,Google UAC - India South,Google,UAC,India South,Lead Generation,10619.55,762078,1276,153,11,10099.68
+2026-09-14,CMP0376,Meta Advantage+ Shopping - India West,Meta,Advantage+ Shopping,India West,App Installs,5834.76,80021,434,102,2,1656.52
+2026-03-12,CMP0377,Google Display - India East,Google,Display,India East,Lead Generation,2674.96,415773,177,36,2,2051.46
+2026-10-05,CMP0378,Meta Reels - India West,Meta,Reels,India West,Purchases,3413.77,699167,368,90,6,6942.82
+2026-03-22,CMP0379,Google Performance Max - India South,Google,Performance Max,India South,Lead Generation,6533.94,599413,292,70,0,0.00
+2026-05-21,CMP0380,Meta App Installs - India West,Meta,App Installs,India West,Purchases,3752.88,212062,856,159,9,6855.57
+2026-02-10,CMP0381,Google UAC - India North,Google,UAC,India North,Purchases,12760.77,514753,581,113,5,5448.47
+2026-07-29,CMP0382,Google UAC - India South,Google,UAC,India South,App Installs,14044.25,30743,506,101,5,3445.28
+2026-06-16,CMP0383,Meta Reels - India East,Meta,Reels,India East,Lead Generation,15761.82,273771,1152,273,33,56688.65
+2026-08-22,CMP0384,Google YouTube - India North,Google,YouTube,India North,Purchases,15093.77,59476,1829,505,15,22244.49
+2026-07-23,CMP0385,Google UAC - India West,Google,UAC,India West,Purchases,16057.88,826259,1173,219,7,4494.16
+2026-04-03,CMP0386,Meta Prospecting - Pan-India,Meta,Prospecting,Pan-India,App Installs,14282.68,744928,1570,72,6,9955.94
+2026-03-25,CMP0387,Meta Prospecting - India West,Meta,Prospecting,India West,Purchases,13268.70,144545,1064,64,7,12365.56
+2026-01-23,CMP0388,Google Performance Max - Pan-India,Google,Performance Max,Pan-India,Purchases,14106.77,366475,664,165,8,8131.48
+2026-04-03,CMP0389,Meta App Installs - India West,Meta,App Installs,India West,Lead Generation,3174.91,152962,1748,75,6,9240.38
+2026-09-01,CMP0390,Meta Retargeting - India South,Meta,Retargeting,India South,Lead Generation,8822.81,478339,663,113,12,18769.09
+2026-06-28,CMP0391,Google UAC - India South,Google,UAC,India South,App Installs,1816.91,49007,76,19,0,0.00
+2026-04-01,CMP0392,Meta Reels - Pan-India,Meta,Reels,Pan-India,Lead Generation,17433.73,800734,821,91,6,3248.10
+2026-08-30,CMP0393,Meta Reels - India North,Meta,Reels,India North,Purchases,3460.37,743361,455,41,2,2442.69
+2026-05-28,CMP0394,Google Performance Max - Pan-India,Google,Performance Max,Pan-India,Lead Generation,8374.50,346862,567,148,15,21515.99
+2026-04-30,CMP0395,Meta App Installs - India South,Meta,App Installs,India South,Lead Generation,13104.26,217957,1321,90,12,21583.59
+2026-04-19,CMP0396,Meta Prospecting - India West,Meta,Prospecting,India West,Purchases,1389.79,225960,179,20,1,603.68
+2026-01-15,CMP0397,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Lead Generation,15178.32,218440,2225,578,76,83601.44
+2026-07-31,CMP0398,Meta Reels - India West,Meta,Reels,India West,Purchases,16786.87,73743,2750,318,30,41262.48
+2026-01-16,CMP0399,Meta Prospecting - India South,Meta,Prospecting,India South,Purchases,6897.76,408468,461,61,6,8787.48
+2026-02-14,CMP0400,Meta Prospecting - India West,Meta,Prospecting,India West,Purchases,9550.51,264185,563,93,4,2001.93
+2026-01-13,CMP0401,Google Search - India East,Google,Search,India East,Lead Generation,14623.62,539344,1383,345,23,34242.40
+2026-01-19,CMP0402,Google YouTube - India South,Google,YouTube,India South,App Installs,8917.39,763344,1455,73,10,8999.41
+2026-06-09,CMP0403,Google Search - Pan-India,Google,Search,Pan-India,Lead Generation,1577.67,810338,63,5,0,0.00
+2026-05-21,CMP0404,Google Display - India South,Google,Display,India South,App Installs,3122.93,668205,607,104,6,9212.42
+2026-06-23,CMP0405,Google UAC - India North,Google,UAC,India North,Purchases,10281.70,68190,755,49,1,691.63
+2026-06-20,CMP0406,Meta Reels - India West,Meta,Reels,India West,Purchases,14933.03,762528,788,206,26,14961.36
+2026-08-27,CMP0407,Meta Prospecting - India East,Meta,Prospecting,India East,Purchases,9105.17,249665,490,62,3,2687.83
+2026-02-03,CMP0408,Meta App Installs - India East,Meta,App Installs,India East,App Installs,9185.62,383512,527,65,6,5986.06
+2026-02-06,CMP0409,Google Display - Pan-India,Google,Display,Pan-India,Lead Generation,14512.84,573624,788,77,3,1617.54
+2026-06-25,CMP0410,Google YouTube - India East,Google,YouTube,India East,Purchases,10348.05,262625,653,137,18,22584.63
+2026-04-01,CMP0411,Meta Reels - India North,Meta,Reels,India North,Purchases,6375.00,440505,1972,443,33,44260.34
+2026-01-01,CMP0412,Google UAC - India South,Google,UAC,India South,Lead Generation,13918.91,707984,895,159,8,7019.26
+2026-01-05,CMP0413,Meta App Installs - India West,Meta,App Installs,India West,App Installs,11473.04,550218,2547,327,32,44784.90
+2026-05-01,CMP0414,Meta Prospecting - India West,Meta,Prospecting,India West,App Installs,8452.82,633831,1122,147,14,15275.07
+2026-08-02,CMP0415,Google YouTube - India East,Google,YouTube,India East,Purchases,3791.69,717615,1251,93,13,22960.81
+2026-08-01,CMP0416,Google Search - India South,Google,Search,India South,Lead Generation,15650.57,842251,708,105,8,7754.92
+2026-01-04,CMP0417,Google UAC - India East,Google,UAC,India East,Lead Generation,10909.37,781418,742,126,9,10953.02
+2026-02-10,CMP0418,Meta Prospecting - Pan-India,Meta,Prospecting,Pan-India,Purchases,3587.07,781816,256,27,2,2547.19
+2026-10-04,CMP0419,Google Performance Max - India North,Google,Performance Max,India North,Lead Generation,14608.05,342679,649,27,2,2449.71
+2026-05-29,CMP0420,Meta App Installs - India West,Meta,App Installs,India West,Purchases,4014.14,743813,319,55,1,678.26
+2026-05-27,CMP0421,Google Display - Pan-India,Google,Display,Pan-India,App Installs,9343.97,147981,382,27,1,469.17
+2026-03-19,CMP0422,Google YouTube - India South,Google,YouTube,India South,Lead Generation,12273.81,402728,1543,241,32,29211.03
+2026-09-11,CMP0423,Google UAC - Pan-India,Google,UAC,Pan-India,App Installs,13846.39,448007,1631,314,16,14653.64
+2026-08-26,CMP0424,Meta Prospecting - India North,Meta,Prospecting,India North,App Installs,7898.91,331006,557,53,6,4827.26
+2026-07-15,CMP0425,Meta Prospecting - India West,Meta,Prospecting,India West,Purchases,12598.69,571011,5733,1106,170,287190.64
+2026-02-20,CMP0426,Meta Advantage+ Shopping - India West,Meta,Advantage+ Shopping,India West,Purchases,5489.78,627553,429,92,9,8149.49
+2026-01-05,CMP0427,Google Display - Pan-India,Google,Display,Pan-India,App Installs,15172.38,27542,606,75,9,4463.61
+2026-04-22,CMP0428,Google Search - Pan-India,Google,Search,Pan-India,Lead Generation,17168.21,684078,565,104,7,9272.71
+2026-05-31,CMP0429,Google Search - India South,Google,Search,India South,Purchases,9044.85,94392,344,49,7,6206.17
+2026-07-15,CMP0430,Google Search - India West,Google,Search,India West,App Installs,7728.32,77976,310,17,2,1960.11
+2026-08-09,CMP0431,Meta Prospecting - India South,Meta,Prospecting,India South,Lead Generation,4868.89,689588,472,22,0,0.00
+2026-01-01,CMP0432,Google Performance Max - India South,Google,Performance Max,India South,Lead Generation,16872.61,711889,2436,326,8,11926.70
+2026-02-05,CMP0433,Meta App Installs - India East,Meta,App Installs,India East,Lead Generation,10274.16,18468,387,26,2,1800.29
+2026-02-16,CMP0434,Meta App Installs - India North,Meta,App Installs,India North,Lead Generation,7337.97,371581,888,173,8,7748.97
+2026-07-03,CMP0435,Google Display - India East,Google,Display,India East,App Installs,9373.26,678529,1004,46,7,6823.85
+2026-01-09,CMP0436,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Purchases,1822.32,73777,128,11,1,1719.12
+2026-01-19,CMP0437,Google YouTube - India South,Google,YouTube,India South,App Installs,13555.72,527643,1226,62,7,4777.75
+2026-03-29,CMP0438,Google Display - India North,Google,Display,India North,Purchases,15233.92,82064,2849,660,36,36913.88
+2026-10-07,CMP0439,Meta Advantage+ Shopping - India North,Meta,Advantage+ Shopping,India North,Lead Generation,3507.13,892057,500,40,1,1472.69
+2026-08-13,CMP0440,Google Display - Pan-India,Google,Display,Pan-India,App Installs,5293.23,625256,1194,223,0,0.00
+2026-05-26,CMP0441,Google Search - India South,Google,Search,India South,App Installs,8192.53,861632,494,36,2,1545.99
+2026-04-03,CMP0442,Google YouTube - India North,Google,YouTube,India North,Lead Generation,13248.94,656780,900,111,2,1217.27
+2026-09-17,CMP0443,Google YouTube - India West,Google,YouTube,India West,Lead Generation,4883.84,822750,500,33,1,1680.50
+2026-01-23,CMP0444,Meta Retargeting - India South,Meta,Retargeting,India South,Lead Generation,2107.66,396884,215,50,6,8697.38
+2026-09-21,CMP0445,Google UAC - India North,Google,UAC,India North,Purchases,3149.89,261729,179,15,1,1501.62
+2026-07-31,CMP0446,Meta Retargeting - India North,Meta,Retargeting,India North,App Installs,15814.09,408774,5190,275,23,29272.91
+2026-08-23,CMP0447,Google Performance Max - India West,Google,Performance Max,India West,App Installs,13293.00,677722,1365,65,6,3599.99
+2026-06-25,CMP0448,Meta App Installs - India East,Meta,App Installs,India East,App Installs,4893.54,324499,357,66,3,4812.77
+2026-04-21,CMP0449,Google Performance Max - Pan-India,Google,Performance Max,Pan-India,Purchases,11138.56,892646,3235,806,47,35261.70
+2026-01-23,CMP0450,Google YouTube - India North,Google,YouTube,India North,Purchases,1872.99,508515,127,17,2,1164.60
+2026-01-07,CMP0451,Meta Retargeting - India North,Meta,Retargeting,India North,Lead Generation,12845.09,441369,2797,546,20,17230.59
+2026-08-21,CMP0452,Meta Reels - Pan-India,Meta,Reels,Pan-India,App Installs,8991.18,160357,1213,156,13,20949.72
+2026-01-17,CMP0453,Google Performance Max - India West,Google,Performance Max,India West,Lead Generation,6182.71,804460,265,61,8,13113.15
+2026-02-26,CMP0454,Google YouTube - India West,Google,YouTube,India West,App Installs,7633.64,502957,579,100,3,2179.09
+2026-09-02,CMP0455,Meta Retargeting - Pan-India,Meta,Retargeting,Pan-India,App Installs,13587.99,803819,669,146,8,6487.46
+2026-07-10,CMP0456,Meta Advantage+ Shopping - India North,Meta,Advantage+ Shopping,India North,App Installs,6999.81,524845,451,75,10,10601.71
+2026-02-14,CMP0457,Meta Prospecting - India South,Meta,Prospecting,India South,Purchases,2546.86,202497,118,12,1,1631.24
+2026-10-05,CMP0458,Google Display - India East,Google,Display,India East,Lead Generation,16852.92,511925,1415,155,5,3818.21
+2026-06-17,CMP0459,Meta App Installs - Pan-India,Meta,App Installs,Pan-India,Purchases,9367.29,713199,588,66,2,1363.69
+2026-05-28,CMP0460,Meta Retargeting - India East,Meta,Retargeting,India East,Purchases,14131.80,64617,761,143,6,4176.47
+2026-03-01,CMP0461,Google UAC - India South,Google,UAC,India South,App Installs,1891.34,347006,139,12,1,1770.33
+2026-03-25,CMP0462,Google Display - India East,Google,Display,India East,Lead Generation,10165.20,142391,853,63,5,2278.99
+2026-03-17,CMP0463,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Purchases,14632.88,778933,1765,380,55,65658.78
+2026-04-23,CMP0464,Meta Prospecting - India East,Meta,Prospecting,India East,Lead Generation,8692.34,111973,628,104,13,9284.81
+2026-02-14,CMP0465,Google YouTube - India East,Google,YouTube,India East,Lead Generation,17594.10,428583,1853,493,72,46780.35
+2026-01-07,CMP0466,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Purchases,5982.13,383422,675,61,8,8088.59
+2026-08-06,CMP0467,Meta Advantage+ Shopping - India South,Meta,Advantage+ Shopping,India South,Lead Generation,13440.57,449313,935,84,7,12473.73
+2026-01-04,CMP0468,Google YouTube - India East,Google,YouTube,India East,App Installs,8078.94,301606,586,129,5,4826.94
+2026-06-05,CMP0469,Meta Prospecting - India West,Meta,Prospecting,India West,Lead Generation,9500.89,790795,2937,302,46,50044.81
+2026-05-06,CMP0470,Meta App Installs - India South,Meta,App Installs,India South,Purchases,1677.84,816865,73,15,1,1622.27
+2026-01-09,CMP0471,Meta Prospecting - India West,Meta,Prospecting,India West,Lead Generation,15400.71,185757,3480,718,52,48753.67
+2026-09-29,CMP0472,Meta Prospecting - India West,Meta,Prospecting,India West,Purchases,11934.30,95558,704,44,5,8138.99
+2026-10-01,CMP0473,Meta Advantage+ Shopping - India West,Meta,Advantage+ Shopping,India West,App Installs,10944.78,878308,2325,527,42,28143.75
+2026-04-07,CMP0474,Google UAC - Pan-India,Google,UAC,Pan-India,App Installs,14557.79,600792,692,116,11,6642.41
+2026-01-09,CMP0475,Meta Prospecting - India North,Meta,Prospecting,India North,App Installs,9255.91,341708,2127,589,56,38218.86
+2026-03-07,CMP0476,Meta Prospecting - India North,Meta,Prospecting,India North,App Installs,15594.50,164274,1926,530,43,25835.47
+2026-04-11,CMP0477,Google Performance Max - India East,Google,Performance Max,India East,App Installs,3011.33,846578,184,47,1,463.87
+2026-04-13,CMP0478,Google Search - Pan-India,Google,Search,Pan-India,App Installs,4304.33,383609,779,83,8,12835.49
+2026-02-20,CMP0479,Google YouTube - Pan-India,Google,YouTube,Pan-India,App Installs,14969.05,815319,1628,175,25,44108.32
+2026-09-01,CMP0480,Google UAC - Pan-India,Google,UAC,Pan-India,Lead Generation,7356.58,633010,331,79,12,13730.87
+2026-08-27,CMP0481,Meta Prospecting - India West,Meta,Prospecting,India West,App Installs,3053.31,157514,350,74,2,1938.91
+2026-08-16,CMP0482,Meta Reels - India West,Meta,Reels,India West,Lead Generation,4994.67,442066,268,15,2,2733.65
+2026-02-23,CMP0483,Google Search - India East,Google,Search,India East,Lead Generation,7859.01,563051,1325,180,18,30584.55
+2026-06-23,CMP0484,Google Search - India West,Google,Search,India West,App Installs,4564.43,438927,236,25,3,2455.54
+2026-07-27,CMP0485,Meta Advantage+ Shopping - India East,Meta,Advantage+ Shopping,India East,Lead Generation,17790.39,551256,1001,100,9,5685.49
+2026-01-14,CMP0486,Google Search - India North,Google,Search,India North,Purchases,17530.82,416219,1550,293,37,42621.45
+2026-09-12,CMP0487,Meta App Installs - India South,Meta,App Installs,India South,Purchases,9436.21,289375,643,28,3,4914.51
+2026-07-12,CMP0488,Google Performance Max - India East,Google,Performance Max,India East,Purchases,8634.94,52728,383,43,5,3157.80
+2026-09-09,CMP0489,Meta App Installs - India North,Meta,App Installs,India North,Lead Generation,12289.32,733666,1331,103,3,3743.73
+2026-06-14,CMP0490,Meta Reels - India West,Meta,Reels,India West,Purchases,2231.92,634145,134,29,0,0.00
+2026-07-30,CMP0491,Google Performance Max - India West,Google,Performance Max,India West,Purchases,7101.32,708360,788,47,5,3022.68
+2026-01-20,CMP0492,Google Search - Pan-India,Google,Search,Pan-India,Purchases,8943.28,457995,346,71,7,6719.62
+2026-09-08,CMP0493,Meta Advantage+ Shopping - Pan-India,Meta,Advantage+ Shopping,Pan-India,App Installs,2880.95,722905,334,66,3,5276.18
+2026-04-20,CMP0494,Google Performance Max - India North,Google,Performance Max,India North,Lead Generation,6027.57,64840,444,84,12,14766.73
+2026-09-29,CMP0495,Meta Advantage+ Shopping - India North,Meta,Advantage+ Shopping,India North,Lead Generation,9184.51,234927,3307,532,34,29682.90
+2026-09-21,CMP0496,Meta App Installs - India West,Meta,App Installs,India West,Lead Generation,8814.24,815527,582,95,4,5368.35
+2026-08-11,CMP0497,Meta Advantage+ Shopping - Pan-India,Meta,Advantage+ Shopping,Pan-India,Lead Generation,16901.88,776911,1521,114,5,4276.86
+2026-04-15,CMP0498,Meta App Installs - India West,Meta,App Installs,India West,App Installs,15412.25,294901,1097,202,16,11345.39
+2026-08-12,CMP0499,Google Display - India East,Google,Display,India East,Purchases,8289.92,53801,704,161,10,13197.97
+2026-02-12,CMP0500,Google Performance Max - India North,Google,Performance Max,India North,App Installs,6473.60,327453,270,34,3,5169.81
