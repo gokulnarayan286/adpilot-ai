@@ -1,11 +1,21 @@
 
 from pathlib import Path
+import os
 from datetime import date, timedelta
 
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+
+from csv_upload import load_uploaded_csv
+from structured_investigator import (
+    MAX_CAMPAIGNS,
+    calculate_metrics,
+    get_gemini_client,
+    investigate_campaign,
+    screen_campaign,
+)
 
 
 # ============================================================
@@ -277,7 +287,7 @@ def chart_layout(fig, height=350):
 def show_chart(fig, height=350):
     st.plotly_chart(
         chart_layout(fig, height),
-        use_container_width=True,
+        width="stretch",
         config={"displaylogo": False},
     )
 
@@ -298,7 +308,7 @@ def download_csv(df, filename, label="Download CSV"):
         data=csv,
         file_name=filename,
         mime="text/csv",
-        use_container_width=False,
+        width="content",
     )
 
 
@@ -344,21 +354,49 @@ if theme_choice != st.session_state.adpilot_theme:
     st.session_state.adpilot_theme = theme_choice
     st.rerun()
 
-if not DATA_FILE.exists():
-    st.title("🚀 AdPilot AI")
-    st.error(f"Could not find the data file: {DATA_FILE}")
-    st.info(
-        "Create a campaigns.csv file in the same folder as dashboard.py. "
-        "It must contain: date, campaign, platform, spend, installs, "
-        "purchases, revenue."
-    )
-    st.stop()
+source_mode = st.sidebar.radio(
+    "Data source",
+    ["Demo data", "Upload your CSV"],
+    index=0,
+)
 
-try:
-    raw_df = load_data(str(DATA_FILE), DATA_FILE.stat().st_mtime)
-except Exception as error:
-    st.error(f"Unable to load campaigns.csv: {error}")
-    st.stop()
+if source_mode == "Upload your CSV":
+    uploaded_file = st.sidebar.file_uploader(
+        "Upload campaign CSV",
+        type=["csv"],
+        help="Required columns: date, campaign, platform, spend, "
+             "installs, purchases, revenue.",
+    )
+
+    if uploaded_file is None:
+        st.info("Upload a CSV to view its campaign performance.")
+        st.stop()
+
+    try:
+        raw_df, invalid_dates = load_uploaded_csv(uploaded_file)
+    except Exception as error:
+        st.error(f"Unable to read the uploaded CSV: {error}")
+        st.stop()
+
+    source_label = uploaded_file.name
+
+    if invalid_dates:
+        st.warning(
+            f"{invalid_dates} row(s) with invalid dates were skipped."
+        )
+else:
+    if not DATA_FILE.exists():
+        st.title("🚀 AdPilot AI")
+        st.error(f"Could not find the data file: {DATA_FILE}")
+        st.stop()
+
+    try:
+        raw_df = load_data(str(DATA_FILE), DATA_FILE.stat().st_mtime)
+    except Exception as error:
+        st.error(f"Unable to load campaigns.csv: {error}")
+        st.stop()
+
+    source_label = DATA_FILE.name
 
 if raw_df.empty:
     st.warning("The CSV contains no valid campaign rows.")
@@ -430,7 +468,7 @@ filtered_df = add_metrics(filtered_df)
 st.sidebar.divider()
 st.sidebar.caption(f"Data rows: {len(raw_df):,}")
 st.sidebar.caption(f"Filtered rows: {len(filtered_df):,}")
-st.sidebar.caption(f"Data source: {DATA_FILE.name}")
+st.sidebar.caption(f"Data source: {source_label}")
 
 
 # ============================================================
@@ -443,6 +481,7 @@ pages = [
     "Campaigns",
     "Audience",
     "Attribution",
+    "AI Investigator",
     "Reports",
     "Alerts",
     "Settings",
@@ -474,10 +513,148 @@ if filtered_df.empty:
 
 
 # ============================================================
+# AI INVESTIGATOR
+# ============================================================
+
+if page == "AI Investigator":
+    section_title(
+        "AI Campaign Investigator",
+        "Investigate campaign signals using your selected campaign data.",
+    )
+
+    st.info(
+        "AI findings are advisory, not proof of root cause. "
+        "Review the evidence before changing budgets or campaigns. "
+        "The investigator uses illustrative screening thresholds."
+    )
+
+    st.caption(
+        f"Source: {source_label} · "
+        f"Campaign limit per run: {MAX_CAMPAIGNS}"
+    )
+
+    if st.button(
+        "Run AI investigation",
+        type="primary",
+        width="stretch",
+    ):
+        try:
+            # Support Streamlit Cloud secrets as well as local environment variables.
+            if not os.getenv("GEMINI_API_KEY"):
+                try:
+                    secret_key = st.secrets["GEMINI_API_KEY"]
+                    if secret_key:
+                        os.environ["GEMINI_API_KEY"] = str(secret_key)
+                except Exception:
+                    pass
+
+            client = get_gemini_client()
+
+            campaign_data = (
+                filtered_df.groupby(
+                    ["campaign", "platform"],
+                    as_index=False,
+                    dropna=False,
+                )
+                .agg({
+                    "spend": "sum",
+                    "impressions": "sum",
+                    "clicks": "sum",
+                    "installs": "sum",
+                    "purchases": "sum",
+                    "revenue": "sum",
+                    "campaign_type": "first",
+                })
+            )
+
+            selected_rows = campaign_data.head(MAX_CAMPAIGNS)
+
+            reports = []
+            investigation_errors = []
+
+            with st.spinner(
+                f"Investigating {len(selected_rows)} campaign(s) with Gemini..."
+            ):
+                for _, campaign_row in selected_rows.iterrows():
+                    row = campaign_row.to_dict()
+                    try:
+                        metrics = calculate_metrics(row)
+                        screening = screen_campaign(row, metrics)
+                        report = investigate_campaign(
+                            client, row, metrics, screening
+                        )
+                        report["_metrics"] = metrics
+                        reports.append(report)
+                    except Exception as error:
+                        investigation_errors.append(
+                            f"{row.get('campaign', 'Unknown campaign')} "
+                            f"({row.get('platform', 'Unknown platform')}): "
+                            f"{error}"
+                        )
+
+            st.session_state["adpilot_ai_reports"] = reports
+            st.session_state["adpilot_ai_errors"] = investigation_errors
+            st.session_state["adpilot_ai_source"] = source_label
+
+            if len(campaign_data) > MAX_CAMPAIGNS:
+                st.warning(
+                    f"There are {len(campaign_data)} campaigns in the "
+                    f"current selection. Only the first {MAX_CAMPAIGNS} "
+                    "were investigated in this run."
+                )
+
+        except Exception as error:
+            st.error(f"Could not start the AI investigation: {error}")
+
+    # Show the latest saved results for this data source.
+    if st.session_state.get("adpilot_ai_source") == source_label:
+        reports = st.session_state.get("adpilot_ai_reports", [])
+        investigation_errors = st.session_state.get(
+            "adpilot_ai_errors", []
+        )
+
+        for report in reports:
+            st.divider()
+            st.subheader(report["campaign"])
+            st.write(report["problem"])
+            st.caption(
+                f"Confidence: {report['confidence'].title()} · "
+                f"Spend: {report['_metrics']['spend']:,.2f} · "
+                f"Purchases: {report['_metrics']['purchases']:,} · "
+                f"CPA: {report['_metrics']['purchase_cpa']}"
+            )
+
+            for heading, field in [
+                ("Evidence", "evidence"),
+                ("Hypotheses to validate", "hypotheses"),
+                ("Recommended experiments", "experiments"),
+                ("Data gaps to investigate", "data_gaps"),
+            ]:
+                st.markdown(f"**{heading}**")
+                if report[field]:
+                    for item in report[field]:
+                        st.markdown(f"- {item}")
+                else:
+                    st.caption("None reported.")
+
+        for error in investigation_errors:
+            st.warning(f"Investigation failed: {error}")
+
+        if not reports and not investigation_errors:
+            st.caption("Click the button above to start an investigation.")
+
+    elif "adpilot_ai_reports" in st.session_state:
+        st.caption(
+            "The data source has changed. Run a new investigation "
+            "to generate results for this source."
+        )
+
+
+# ============================================================
 # OVERVIEW
 # ============================================================
 
-if page == "Overview":
+elif page == "Overview":
     section_title(
         "Overview",
         "A consolidated view of acquisition performance across platforms.",
@@ -601,7 +778,7 @@ if page == "Overview":
         lambda x: f"{x:.2f}x"
     )
 
-    st.dataframe(platform_table, use_container_width=True, hide_index=True)
+    st.dataframe(platform_table, width="stretch", hide_index=True)
 
 
 # ============================================================
@@ -699,7 +876,7 @@ elif page == "Ads":
                 "CVR",
             ]
         ].sort_values("date", ascending=False),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -774,7 +951,7 @@ elif page == "Campaigns":
 
         st.dataframe(
             sorted_campaigns,
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 
@@ -843,10 +1020,10 @@ elif page == "Audience":
         show_chart(fig)
 
     st.subheader("Market-level metrics")
-    st.dataframe(market_summary, use_container_width=True, hide_index=True)
+    st.dataframe(market_summary, width="stretch", hide_index=True)
 
     st.subheader("Campaign-type metrics")
-    st.dataframe(type_summary, use_container_width=True, hide_index=True)
+    st.dataframe(type_summary, width="stretch", hide_index=True)
 
 
 # ============================================================
@@ -986,11 +1163,11 @@ elif page == "Reports":
 
     st.subheader("Platform report")
     platform_report = aggregate_metrics(filtered_df, "platform")
-    st.dataframe(platform_report, use_container_width=True, hide_index=True)
+    st.dataframe(platform_report, width="stretch", hide_index=True)
 
     st.subheader("Campaign report")
     campaign_report = aggregate_metrics(filtered_df, "campaign")
-    st.dataframe(campaign_report, use_container_width=True, hide_index=True)
+    st.dataframe(campaign_report, width="stretch", hide_index=True)
 
     col1, col2, col3 = st.columns(3)
 
@@ -1114,7 +1291,7 @@ elif page == "Alerts":
             b.metric("Medium priority", int(medium_count))
             c.metric("Review", int(review_count))
 
-            st.dataframe(alerts_df, use_container_width=True, hide_index=True)
+            st.dataframe(alerts_df, width="stretch", hide_index=True)
 
             download_csv(alerts_df, "adpilot_alerts.csv", "Download alerts")
         else:
@@ -1172,7 +1349,7 @@ elif page == "Settings":
                 "Missing values": [int(raw_df[c].isna().sum()) for c in raw_df.columns],
             }
         ),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -1191,9 +1368,9 @@ elif page == "Settings":
             },
         ]
     )
-    st.dataframe(definitions, use_container_width=True, hide_index=True)
+    st.dataframe(definitions, width="stretch", hide_index=True)
 
-    if st.button("Refresh CSV data", use_container_width=True):
+    if st.button("Refresh CSV data", width="stretch"):
         load_data.clear()
         st.rerun()
 
